@@ -1,0 +1,652 @@
+2026-06-01 21:51:55,023 | INFO | VANET Blockchain Middleware starting...
+2026-06-01 21:51:55,023 | INFO | Watching directory: /tmp
+2026-06-01 21:51:55,023 | INFO | Log file: /home/chamod/vanet_middleware/logs/middleware.log
+2026-06-01 21:51:55,025 | INFO | Middleware ready — waiting for cycles from fix.cc...
+2026-06-01 22:00:23,874 | INFO | Sentinel detected: vanet_ready_1 → cycle 1
+2026-06-01 22:00:23,977 | INFO | ==================================================
+2026-06-01 22:00:23,977 | INFO | Processing cycle 1
+2026-06-01 22:00:23,977 | INFO | Cycle 1: read 3 flow rules
+2026-06-01 22:00:23,978 | INFO | Cycle 1: canonical JSON built (230 bytes)
+2026-06-01 22:00:23,978 | INFO | Cycle 1: SHA-256 = 03ad835187efc203...
+2026-06-01 22:00:23,978 | INFO | Cycle 1: uploading to IPFS...
+2026-06-01 22:00:24,042 | INFO | IPFS upload success | CID: QmTnheoEWF2VkjjWYe5vvttfLG9gzfVHMs5futrbbCZnDw
+2026-06-01 22:00:24,072 | INFO | Cycle 1: IPFS CID = QmTnheoEWF2VkjjWYe5vvttfLG9gzfVHMs5futrbbCZnDw
+2026-06-01 22:00:24,072 | INFO | Cycle 1: invoking Fabric chaincode...
+2026-06-01 22:00:24,201 | INFO | Fabric StoreRecord success | CID: QmTnheoEWF2VkjjWYe5vvttfLG9gzfVHMs5futrbbCZnDw | Cycle: 1
+2026-06-01 22:00:24,201 | INFO | Cycle 1 COMPLETE | CID: QmTnheoEWF2VkjjWYe5vvttfLG9gzfVHMs5futrbbCZnDw | Hash: 03ad835187efc203... | Fabric: OK
+2026-06-03 12:52:41,727 | INFO | VANET Blockchain Middleware starting...
+2026-06-03 12:52:41,727 | INFO | Watching directory: /tmp
+2026-06-03 12:52:41,728 | INFO | Log file: /home/chamod/vanet_middleware/logs/middleware.log
+2026-06-03 12:52:41,729 | INFO | Middleware ready — waiting for cycles from fix.cc...
+2026-06-03 12:55:00,330 | INFO | Sentinel detected: vanet_ready_2 → cycle 2
+2026-06-03 12:55:00,433 | INFO | ==================================================
+2026-06-03 12:55:00,433 | INFO | Processing cycle 2
+2026-06-03 12:55:00,435 | INFO | Cycle 2: read 428 flow rules
+2026-06-03 12:55:00,436 | INFO | Cycle 2: canonical JSON built (46369 bytes)
+2026-06-03 12:55:00,438 | INFO | Cycle 2: SHA-256 = 49ef2663bee450ea...
+2026-06-03 12:55:00,438 | INFO | Cycle 2: uploading to IPFS...
+2026-06-03 12:55:00,502 | INFO | IPFS upload success | CID: QmUJbCoBibVtNPSR2XPzLqgrmGz2eM181htgE3L6wP1Q2o
+2026-06-03 12:55:00,548 | INFO | Cycle 2: IPFS CID = QmUJbCoBibVtNPSR2XPzLqgrmGz2eM181htgE3L6wP1Q2o
+2026-06-03 12:55:00,549 | INFO | Cycle 2: invoking Fabric chaincode...
+2026-06-03 12:55:00,797 | INFO | Fabric StoreRecord success | CID: QmUJbCoBibVtNPSR2XPzLqgrmGz2eM181htgE3L6wP1Q2o | Cycle: 2
+2026-06-03 12:55:00,797 | INFO | Cycle 2 COMPLETE | CID: QmUJbCoBibVtNPSR2XPzLqgrmGz2eM181htgE3L6wP1Q2o | Hash: 49ef2663bee450ea... | Fabric: OK
+2026-06-03 12:55:43,771 | INFO | Sentinel detected: vanet_ready_3 → cycle 3
+2026-06-03 12:55:43,872 | INFO | ==================================================
+2026-06-03 12:55:43,872 | INFO | Processing cycle 3
+2026-06-03 12:55:43,873 | INFO | Cycle 3: read 523 flow rules
+2026-06-03 12:55:43,875 | INFO | Cycle 3: canonical JSON built (56772 bytes)
+2026-06-03 12:55:43,876 | INFO | Cycle 3: SHA-256 = b243e6b17f5f9fac...
+2026-06-03 12:55:43,876 | INFO | Cycle 3: uploading to IPFS...
+2026-06-03 12:55:43,922 | INFO | IPFS upload success | CID: QmPKNcWjCwSShZczs1nPGNwN5mWzaSXwrnAnW4XDy1kde7
+2026-06-03 12:55:43,949 | INFO | Cycle 3: IPFS CID = QmPKNcWjCwSShZczs1nPGNwN5mWzaSXwrnAnW4XDy1kde7
+2026-06-03 12:55:43,950 | INFO | Cycle 3: invoking Fabric chaincode...
+2026-06-03 12:55:44,089 | INFO | Fabric StoreRecord success | CID: QmPKNcWjCwSShZczs1nPGNwN5mWzaSXwrnAnW4XDy1kde7 | Cycle: 3
+2026-06-03 12:55:44,089 | INFO | Cycle 3 COMPLETE | CID: QmPKNcWjCwSShZczs1nPGNwN5mWzaSXwrnAnW4XDy1kde7 | Hash: b243e6b17f5f9fac... | Fabric: OK
+2026-06-03 12:56:27,373 | INFO | Sentinel detected: vanet_ready_4 → cycle 4
+2026-06-03 12:56:27,474 | INFO | ==================================================
+2026-06-03 12:56:27,474 | INFO | Processing cycle 4
+2026-06-03 12:56:27,475 | INFO | Cycle 4: read 570 flow rules
+2026-06-03 12:56:27,477 | INFO | Cycle 4: canonical JSON built (61852 bytes)
+2026-06-03 12:56:27,477 | INFO | Cycle 4: SHA-256 = 6c1e0a17c5ea8cdd...
+2026-06-03 12:56:27,477 | INFO | Cycle 4: uploading to IPFS...
+2026-06-03 12:56:27,517 | INFO | IPFS upload success | CID: QmVwN6aEGGjs2F9NFaMhL38bHUtmF634hqC2ALpEebsiYN
+2026-06-03 12:56:27,539 | INFO | Cycle 4: IPFS CID = QmVwN6aEGGjs2F9NFaMhL38bHUtmF634hqC2ALpEebsiYN
+2026-06-03 12:56:27,540 | INFO | Cycle 4: invoking Fabric chaincode...
+2026-06-03 12:56:27,757 | INFO | Fabric StoreRecord success | CID: QmVwN6aEGGjs2F9NFaMhL38bHUtmF634hqC2ALpEebsiYN | Cycle: 4
+2026-06-03 12:56:27,757 | INFO | Cycle 4 COMPLETE | CID: QmVwN6aEGGjs2F9NFaMhL38bHUtmF634hqC2ALpEebsiYN | Hash: 6c1e0a17c5ea8cdd... | Fabric: OK
+2026-06-03 12:57:14,140 | INFO | Sentinel detected: vanet_ready_5 → cycle 5
+2026-06-03 12:57:14,243 | INFO | ==================================================
+2026-06-03 12:57:14,243 | INFO | Processing cycle 5
+2026-06-03 12:57:14,247 | INFO | Cycle 5: read 606 flow rules
+2026-06-03 12:57:14,257 | INFO | Cycle 5: canonical JSON built (65745 bytes)
+2026-06-03 12:57:14,273 | INFO | Cycle 5: SHA-256 = e37e097a46d0ba69...
+2026-06-03 12:57:14,278 | INFO | Cycle 5: uploading to IPFS...
+2026-06-03 12:57:14,350 | INFO | IPFS upload success | CID: QmRk3HNfUmuitFxBEVSk5yAKi3zYcaULZVXamU9Vrs58PL
+2026-06-03 12:57:14,399 | INFO | Cycle 5: IPFS CID = QmRk3HNfUmuitFxBEVSk5yAKi3zYcaULZVXamU9Vrs58PL
+2026-06-03 12:57:14,400 | INFO | Cycle 5: invoking Fabric chaincode...
+2026-06-03 12:57:14,627 | INFO | Fabric StoreRecord success | CID: QmRk3HNfUmuitFxBEVSk5yAKi3zYcaULZVXamU9Vrs58PL | Cycle: 5
+2026-06-03 12:57:14,627 | INFO | Cycle 5 COMPLETE | CID: QmRk3HNfUmuitFxBEVSk5yAKi3zYcaULZVXamU9Vrs58PL | Hash: e37e097a46d0ba69... | Fabric: OK
+2026-06-03 12:58:00,311 | INFO | Sentinel detected: vanet_ready_6 → cycle 6
+2026-06-03 12:58:00,413 | INFO | ==================================================
+2026-06-03 12:58:00,413 | INFO | Processing cycle 6
+2026-06-03 12:58:00,415 | INFO | Cycle 6: read 642 flow rules
+2026-06-03 12:58:00,418 | INFO | Cycle 6: canonical JSON built (69520 bytes)
+2026-06-03 12:58:00,419 | INFO | Cycle 6: SHA-256 = 8f86a2b9548696ee...
+2026-06-03 12:58:00,419 | INFO | Cycle 6: uploading to IPFS...
+2026-06-03 12:58:00,500 | INFO | IPFS upload success | CID: QmZWSP1eLFUFRZuYFS7JonfFBkEzYsB3UBUDviPeLekzCQ
+2026-06-03 12:58:00,545 | INFO | Cycle 6: IPFS CID = QmZWSP1eLFUFRZuYFS7JonfFBkEzYsB3UBUDviPeLekzCQ
+2026-06-03 12:58:00,545 | INFO | Cycle 6: invoking Fabric chaincode...
+2026-06-03 12:58:00,702 | INFO | Fabric StoreRecord success | CID: QmZWSP1eLFUFRZuYFS7JonfFBkEzYsB3UBUDviPeLekzCQ | Cycle: 6
+2026-06-03 12:58:00,702 | INFO | Cycle 6 COMPLETE | CID: QmZWSP1eLFUFRZuYFS7JonfFBkEzYsB3UBUDviPeLekzCQ | Hash: 8f86a2b9548696ee... | Fabric: OK
+2026-06-03 12:58:48,311 | INFO | Sentinel detected: vanet_ready_7 → cycle 7
+2026-06-03 12:58:48,418 | INFO | ==================================================
+2026-06-03 12:58:48,420 | INFO | Processing cycle 7
+2026-06-03 12:58:48,421 | INFO | Cycle 7: read 657 flow rules
+2026-06-03 12:58:48,428 | INFO | Cycle 7: canonical JSON built (71260 bytes)
+2026-06-03 12:58:48,429 | INFO | Cycle 7: SHA-256 = d679cbcd922fa5af...
+2026-06-03 12:58:48,429 | INFO | Cycle 7: uploading to IPFS...
+2026-06-03 12:58:48,474 | INFO | IPFS upload success | CID: QmQMo9f2yf9yHXs9FxZsQQtEahRbTJYh4AasZA2McUdqWR
+2026-06-03 12:58:48,516 | INFO | Cycle 7: IPFS CID = QmQMo9f2yf9yHXs9FxZsQQtEahRbTJYh4AasZA2McUdqWR
+2026-06-03 12:58:48,516 | INFO | Cycle 7: invoking Fabric chaincode...
+2026-06-03 12:58:48,817 | INFO | Fabric StoreRecord success | CID: QmQMo9f2yf9yHXs9FxZsQQtEahRbTJYh4AasZA2McUdqWR | Cycle: 7
+2026-06-03 12:58:48,817 | INFO | Cycle 7 COMPLETE | CID: QmQMo9f2yf9yHXs9FxZsQQtEahRbTJYh4AasZA2McUdqWR | Hash: d679cbcd922fa5af... | Fabric: OK
+2026-06-03 12:59:34,140 | INFO | Sentinel detected: vanet_ready_8 → cycle 8
+2026-06-03 12:59:34,241 | INFO | ==================================================
+2026-06-03 12:59:34,242 | INFO | Processing cycle 8
+2026-06-03 12:59:34,248 | INFO | Cycle 8: read 650 flow rules
+2026-06-03 12:59:34,255 | INFO | Cycle 8: canonical JSON built (70791 bytes)
+2026-06-03 12:59:34,272 | INFO | Cycle 8: SHA-256 = 8149c1b20586a91f...
+2026-06-03 12:59:34,272 | INFO | Cycle 8: uploading to IPFS...
+2026-06-03 12:59:34,319 | INFO | IPFS upload success | CID: QmVnAdE9YLQhzJth9uTXKC2Kb89ANS2ZyobopEVqzruGem
+2026-06-03 12:59:34,340 | INFO | Cycle 8: IPFS CID = QmVnAdE9YLQhzJth9uTXKC2Kb89ANS2ZyobopEVqzruGem
+2026-06-03 12:59:34,340 | INFO | Cycle 8: invoking Fabric chaincode...
+2026-06-03 12:59:34,635 | INFO | Fabric StoreRecord success | CID: QmVnAdE9YLQhzJth9uTXKC2Kb89ANS2ZyobopEVqzruGem | Cycle: 8
+2026-06-03 12:59:34,636 | INFO | Cycle 8 COMPLETE | CID: QmVnAdE9YLQhzJth9uTXKC2Kb89ANS2ZyobopEVqzruGem | Hash: 8149c1b20586a91f... | Fabric: OK
+2026-06-03 13:00:21,403 | INFO | Sentinel detected: vanet_ready_9 → cycle 9
+2026-06-03 13:00:21,504 | INFO | ==================================================
+2026-06-03 13:00:21,505 | INFO | Processing cycle 9
+2026-06-03 13:00:21,505 | INFO | Cycle 9: read 665 flow rules
+2026-06-03 13:00:21,507 | INFO | Cycle 9: canonical JSON built (72430 bytes)
+2026-06-03 13:00:21,507 | INFO | Cycle 9: SHA-256 = 5b66c88d4b03ca95...
+2026-06-03 13:00:21,507 | INFO | Cycle 9: uploading to IPFS...
+2026-06-03 13:00:21,562 | INFO | IPFS upload success | CID: QmVBefrgGU4fuX7YVCSm5Z31Lku8faEzpiJhR2VnZHzrAW
+2026-06-03 13:00:21,591 | INFO | Cycle 9: IPFS CID = QmVBefrgGU4fuX7YVCSm5Z31Lku8faEzpiJhR2VnZHzrAW
+2026-06-03 13:00:21,591 | INFO | Cycle 9: invoking Fabric chaincode...
+2026-06-03 13:00:21,788 | INFO | Fabric StoreRecord success | CID: QmVBefrgGU4fuX7YVCSm5Z31Lku8faEzpiJhR2VnZHzrAW | Cycle: 9
+2026-06-03 13:00:21,793 | INFO | Cycle 9 COMPLETE | CID: QmVBefrgGU4fuX7YVCSm5Z31Lku8faEzpiJhR2VnZHzrAW | Hash: 5b66c88d4b03ca95... | Fabric: OK
+2026-06-03 13:01:19,405 | INFO | Sentinel detected: vanet_ready_10 → cycle 10
+2026-06-03 13:01:19,506 | INFO | ==================================================
+2026-06-03 13:01:19,506 | INFO | Processing cycle 10
+2026-06-03 13:01:19,507 | INFO | Cycle 10: read 661 flow rules
+2026-06-03 13:01:19,515 | INFO | Cycle 10: canonical JSON built (72359 bytes)
+2026-06-03 13:01:19,515 | INFO | Cycle 10: SHA-256 = 0ebdf6c76ecc1723...
+2026-06-03 13:01:19,516 | INFO | Cycle 10: uploading to IPFS...
+2026-06-03 13:01:19,580 | INFO | IPFS upload success | CID: QmeafwBCML4VX4QNqAqqd9yDRa2zf2T8prbZrdgEME4R4k
+2026-06-03 13:01:19,649 | INFO | Cycle 10: IPFS CID = QmeafwBCML4VX4QNqAqqd9yDRa2zf2T8prbZrdgEME4R4k
+2026-06-03 13:01:19,650 | INFO | Cycle 10: invoking Fabric chaincode...
+2026-06-03 13:01:19,829 | INFO | Fabric StoreRecord success | CID: QmeafwBCML4VX4QNqAqqd9yDRa2zf2T8prbZrdgEME4R4k | Cycle: 10
+2026-06-03 13:01:19,829 | INFO | Cycle 10 COMPLETE | CID: QmeafwBCML4VX4QNqAqqd9yDRa2zf2T8prbZrdgEME4R4k | Hash: 0ebdf6c76ecc1723... | Fabric: OK
+2026-06-03 13:02:22,922 | INFO | Sentinel detected: vanet_ready_11 → cycle 11
+2026-06-03 13:02:23,023 | INFO | ==================================================
+2026-06-03 13:02:23,023 | INFO | Processing cycle 11
+2026-06-03 13:02:23,024 | INFO | Cycle 11: read 696 flow rules
+2026-06-03 13:02:23,026 | INFO | Cycle 11: canonical JSON built (77235 bytes)
+2026-06-03 13:02:23,026 | INFO | Cycle 11: SHA-256 = 80c97c0c74ba5324...
+2026-06-03 13:02:23,026 | INFO | Cycle 11: uploading to IPFS...
+2026-06-03 13:02:23,136 | INFO | IPFS upload success | CID: QmSceHbytFwsXCRbzqfGQLvuMT5AJidL3gYeqpJMfzwGjt
+2026-06-03 13:02:23,178 | INFO | Cycle 11: IPFS CID = QmSceHbytFwsXCRbzqfGQLvuMT5AJidL3gYeqpJMfzwGjt
+2026-06-03 13:02:23,178 | INFO | Cycle 11: invoking Fabric chaincode...
+2026-06-03 13:02:23,550 | INFO | Fabric StoreRecord success | CID: QmSceHbytFwsXCRbzqfGQLvuMT5AJidL3gYeqpJMfzwGjt | Cycle: 11
+2026-06-03 13:02:23,550 | INFO | Cycle 11 COMPLETE | CID: QmSceHbytFwsXCRbzqfGQLvuMT5AJidL3gYeqpJMfzwGjt | Hash: 80c97c0c74ba5324... | Fabric: OK
+2026-06-03 13:03:27,462 | INFO | Sentinel detected: vanet_ready_12 → cycle 12
+2026-06-03 13:03:27,564 | INFO | ==================================================
+2026-06-03 13:03:27,564 | INFO | Processing cycle 12
+2026-06-03 13:03:27,576 | INFO | Cycle 12: read 682 flow rules
+2026-06-03 13:03:27,578 | INFO | Cycle 12: canonical JSON built (75624 bytes)
+2026-06-03 13:03:27,578 | INFO | Cycle 12: SHA-256 = 33bc6101adf2762a...
+2026-06-03 13:03:27,578 | INFO | Cycle 12: uploading to IPFS...
+2026-06-03 13:03:27,663 | INFO | IPFS upload success | CID: QmWbaQ6YcQVcr7cUAejjPvf4J8bLANTju7uQcapSQq6WFj
+2026-06-03 13:03:27,692 | INFO | Cycle 12: IPFS CID = QmWbaQ6YcQVcr7cUAejjPvf4J8bLANTju7uQcapSQq6WFj
+2026-06-03 13:03:27,692 | INFO | Cycle 12: invoking Fabric chaincode...
+2026-06-03 13:03:27,988 | INFO | Fabric StoreRecord success | CID: QmWbaQ6YcQVcr7cUAejjPvf4J8bLANTju7uQcapSQq6WFj | Cycle: 12
+2026-06-03 13:03:27,988 | INFO | Cycle 12 COMPLETE | CID: QmWbaQ6YcQVcr7cUAejjPvf4J8bLANTju7uQcapSQq6WFj | Hash: 33bc6101adf2762a... | Fabric: OK
+2026-06-03 13:04:51,797 | INFO | Sentinel detected: vanet_ready_13 → cycle 13
+2026-06-03 13:04:51,900 | INFO | ==================================================
+2026-06-03 13:04:51,905 | INFO | Processing cycle 13
+2026-06-03 13:04:51,906 | INFO | Cycle 13: read 689 flow rules
+2026-06-03 13:04:51,910 | INFO | Cycle 13: canonical JSON built (76245 bytes)
+2026-06-03 13:04:51,914 | INFO | Cycle 13: SHA-256 = f088780c4799c78c...
+2026-06-03 13:04:51,921 | INFO | Cycle 13: uploading to IPFS...
+2026-06-03 13:04:52,019 | INFO | IPFS upload success | CID: QmTooDZ6wTSEvWe7ZgXnNTM7tKxZ5PLUDPGn44ibFkwNLV
+2026-06-03 13:04:52,049 | INFO | Cycle 13: IPFS CID = QmTooDZ6wTSEvWe7ZgXnNTM7tKxZ5PLUDPGn44ibFkwNLV
+2026-06-03 13:04:52,049 | INFO | Cycle 13: invoking Fabric chaincode...
+2026-06-03 13:04:52,262 | INFO | Fabric StoreRecord success | CID: QmTooDZ6wTSEvWe7ZgXnNTM7tKxZ5PLUDPGn44ibFkwNLV | Cycle: 13
+2026-06-03 13:04:52,262 | INFO | Cycle 13 COMPLETE | CID: QmTooDZ6wTSEvWe7ZgXnNTM7tKxZ5PLUDPGn44ibFkwNLV | Hash: f088780c4799c78c... | Fabric: OK
+2026-06-03 13:05:48,485 | INFO | Sentinel detected: vanet_ready_14 → cycle 14
+2026-06-03 13:05:48,585 | INFO | ==================================================
+2026-06-03 13:05:48,586 | INFO | Processing cycle 14
+2026-06-03 13:05:48,588 | INFO | Cycle 14: read 704 flow rules
+2026-06-03 13:05:48,592 | INFO | Cycle 14: canonical JSON built (78221 bytes)
+2026-06-03 13:05:48,598 | INFO | Cycle 14: SHA-256 = fec5beb0a84a3283...
+2026-06-03 13:05:48,598 | INFO | Cycle 14: uploading to IPFS...
+2026-06-03 13:05:48,647 | INFO | IPFS upload success | CID: QmUrL4e91o2rT6ZrrKEyNXkR28ux8wKpzuzkbPQMVpHvJE
+2026-06-03 13:05:48,668 | INFO | Cycle 14: IPFS CID = QmUrL4e91o2rT6ZrrKEyNXkR28ux8wKpzuzkbPQMVpHvJE
+2026-06-03 13:05:48,669 | INFO | Cycle 14: invoking Fabric chaincode...
+2026-06-03 13:05:48,949 | INFO | Fabric StoreRecord success | CID: QmUrL4e91o2rT6ZrrKEyNXkR28ux8wKpzuzkbPQMVpHvJE | Cycle: 14
+2026-06-03 13:05:48,951 | INFO | Cycle 14 COMPLETE | CID: QmUrL4e91o2rT6ZrrKEyNXkR28ux8wKpzuzkbPQMVpHvJE | Hash: fec5beb0a84a3283... | Fabric: OK
+2026-06-03 13:10:39,058 | INFO | Sentinel detected: vanet_ready_1 → cycle 1
+2026-06-03 13:10:39,160 | INFO | ==================================================
+2026-06-03 13:10:39,160 | INFO | Processing cycle 1
+2026-06-03 13:10:39,161 | INFO | Cycle 1: read 428 flow rules
+2026-06-03 13:10:39,162 | INFO | Cycle 1: canonical JSON built (46369 bytes)
+2026-06-03 13:10:39,162 | INFO | Cycle 1: SHA-256 = e7db2b319d0da357...
+2026-06-03 13:10:39,162 | INFO | Cycle 1: uploading to IPFS...
+2026-06-03 13:10:39,210 | INFO | IPFS upload success | CID: QmceAPQPFxbBq9aXRn4za5Yt3PEpoSTLVHPsBMFQvrCRNB
+2026-06-03 13:10:39,233 | INFO | Cycle 1: IPFS CID = QmceAPQPFxbBq9aXRn4za5Yt3PEpoSTLVHPsBMFQvrCRNB
+2026-06-03 13:10:39,233 | INFO | Cycle 1: invoking Fabric chaincode...
+2026-06-03 13:10:39,483 | INFO | Fabric StoreRecord success | CID: QmceAPQPFxbBq9aXRn4za5Yt3PEpoSTLVHPsBMFQvrCRNB | Cycle: 1
+2026-06-03 13:10:39,483 | INFO | Cycle 1 COMPLETE | CID: QmceAPQPFxbBq9aXRn4za5Yt3PEpoSTLVHPsBMFQvrCRNB | Hash: e7db2b319d0da357... | Fabric: OK
+2026-06-03 13:11:35,958 | INFO | Sentinel detected: vanet_ready_2 → cycle 2
+2026-06-03 13:11:36,059 | INFO | ==================================================
+2026-06-03 13:11:36,059 | INFO | Processing cycle 2
+2026-06-03 13:11:36,060 | INFO | Cycle 2: read 523 flow rules
+2026-06-03 13:11:36,062 | INFO | Cycle 2: canonical JSON built (56772 bytes)
+2026-06-03 13:11:36,062 | INFO | Cycle 2: SHA-256 = d27ca02e15473d8c...
+2026-06-03 13:11:36,063 | INFO | Cycle 2: uploading to IPFS...
+2026-06-03 13:11:36,151 | INFO | IPFS upload success | CID: QmPuGhi6TzbDyaH7ZKDS574Hz9FgdYy4JK7D3q46jPSr1W
+2026-06-03 13:11:36,179 | INFO | Cycle 2: IPFS CID = QmPuGhi6TzbDyaH7ZKDS574Hz9FgdYy4JK7D3q46jPSr1W
+2026-06-03 13:11:36,182 | INFO | Cycle 2: invoking Fabric chaincode...
+2026-06-03 13:11:36,362 | INFO | Fabric StoreRecord success | CID: QmPuGhi6TzbDyaH7ZKDS574Hz9FgdYy4JK7D3q46jPSr1W | Cycle: 2
+2026-06-03 13:11:36,363 | INFO | Cycle 2 COMPLETE | CID: QmPuGhi6TzbDyaH7ZKDS574Hz9FgdYy4JK7D3q46jPSr1W | Hash: d27ca02e15473d8c... | Fabric: OK
+2026-06-03 13:12:17,935 | INFO | Sentinel detected: vanet_ready_3 → cycle 3
+2026-06-03 13:12:18,035 | INFO | ==================================================
+2026-06-03 13:12:18,036 | INFO | Processing cycle 3
+2026-06-03 13:12:18,037 | INFO | Cycle 3: read 570 flow rules
+2026-06-03 13:12:18,040 | INFO | Cycle 3: canonical JSON built (61852 bytes)
+2026-06-03 13:12:18,041 | INFO | Cycle 3: SHA-256 = 182118283ea21812...
+2026-06-03 13:12:18,041 | INFO | Cycle 3: uploading to IPFS...
+2026-06-03 13:12:18,108 | INFO | IPFS upload success | CID: QmVUnPFSvefaRHLAQdk75SLjHg1zQocCXLNsbdXi5HFWDC
+2026-06-03 13:12:18,133 | INFO | Cycle 3: IPFS CID = QmVUnPFSvefaRHLAQdk75SLjHg1zQocCXLNsbdXi5HFWDC
+2026-06-03 13:12:18,133 | INFO | Cycle 3: invoking Fabric chaincode...
+2026-06-03 13:12:18,278 | INFO | Fabric StoreRecord success | CID: QmVUnPFSvefaRHLAQdk75SLjHg1zQocCXLNsbdXi5HFWDC | Cycle: 3
+2026-06-03 13:12:18,281 | INFO | Cycle 3 COMPLETE | CID: QmVUnPFSvefaRHLAQdk75SLjHg1zQocCXLNsbdXi5HFWDC | Hash: 182118283ea21812... | Fabric: OK
+2026-06-03 13:13:09,243 | INFO | Sentinel detected: vanet_ready_4 → cycle 4
+2026-06-03 13:13:09,370 | INFO | ==================================================
+2026-06-03 13:13:09,373 | INFO | Processing cycle 4
+2026-06-03 13:13:09,375 | INFO | Cycle 4: read 606 flow rules
+2026-06-03 13:13:09,378 | INFO | Cycle 4: canonical JSON built (65745 bytes)
+2026-06-03 13:13:09,378 | INFO | Cycle 4: SHA-256 = 531c4b2966ba3e8e...
+2026-06-03 13:13:09,384 | INFO | Cycle 4: uploading to IPFS...
+2026-06-03 13:13:09,572 | INFO | IPFS upload success | CID: QmS3THhF6BhwtMddjPLfo7g8W3uGoeHWRGPCcgGbpAQfu3
+2026-06-03 13:13:09,612 | INFO | Cycle 4: IPFS CID = QmS3THhF6BhwtMddjPLfo7g8W3uGoeHWRGPCcgGbpAQfu3
+2026-06-03 13:13:09,612 | INFO | Cycle 4: invoking Fabric chaincode...
+2026-06-03 13:13:09,921 | INFO | Fabric StoreRecord success | CID: QmS3THhF6BhwtMddjPLfo7g8W3uGoeHWRGPCcgGbpAQfu3 | Cycle: 4
+2026-06-03 13:13:09,922 | INFO | Cycle 4 COMPLETE | CID: QmS3THhF6BhwtMddjPLfo7g8W3uGoeHWRGPCcgGbpAQfu3 | Hash: 531c4b2966ba3e8e... | Fabric: OK
+2026-06-03 13:13:55,837 | INFO | Sentinel detected: vanet_ready_5 → cycle 5
+2026-06-03 13:13:55,938 | INFO | ==================================================
+2026-06-03 13:13:55,938 | INFO | Processing cycle 5
+2026-06-03 13:13:55,940 | INFO | Cycle 5: read 642 flow rules
+2026-06-03 13:13:55,945 | INFO | Cycle 5: canonical JSON built (69520 bytes)
+2026-06-03 13:13:55,946 | INFO | Cycle 5: SHA-256 = ad9e903ebe5a517f...
+2026-06-03 13:13:55,946 | INFO | Cycle 5: uploading to IPFS...
+2026-06-03 13:13:55,989 | INFO | IPFS upload success | CID: QmePYQxcDo52xGWDUETr5nX7m5iPX3Sc6uk9RTWvNoAwQe
+2026-06-03 13:13:56,006 | INFO | Cycle 5: IPFS CID = QmePYQxcDo52xGWDUETr5nX7m5iPX3Sc6uk9RTWvNoAwQe
+2026-06-03 13:13:56,008 | INFO | Cycle 5: invoking Fabric chaincode...
+2026-06-03 13:13:56,240 | INFO | Fabric StoreRecord success | CID: QmePYQxcDo52xGWDUETr5nX7m5iPX3Sc6uk9RTWvNoAwQe | Cycle: 5
+2026-06-03 13:13:56,241 | INFO | Cycle 5 COMPLETE | CID: QmePYQxcDo52xGWDUETr5nX7m5iPX3Sc6uk9RTWvNoAwQe | Hash: ad9e903ebe5a517f... | Fabric: OK
+2026-06-03 13:14:39,257 | INFO | Sentinel detected: vanet_ready_6 → cycle 6
+2026-06-03 13:14:39,358 | INFO | ==================================================
+2026-06-03 13:14:39,358 | INFO | Processing cycle 6
+2026-06-03 13:14:39,360 | INFO | Cycle 6: read 657 flow rules
+2026-06-03 13:14:39,373 | INFO | Cycle 6: canonical JSON built (71260 bytes)
+2026-06-03 13:14:39,381 | INFO | Cycle 6: SHA-256 = 39368b2a40585f4f...
+2026-06-03 13:14:39,382 | INFO | Cycle 6: uploading to IPFS...
+2026-06-03 13:14:39,440 | INFO | IPFS upload success | CID: QmcLjNARC3VKVqpGrUyoDXYVLpCxSjTRMvjL1tFsH5wA2y
+2026-06-03 13:14:39,457 | INFO | Cycle 6: IPFS CID = QmcLjNARC3VKVqpGrUyoDXYVLpCxSjTRMvjL1tFsH5wA2y
+2026-06-03 13:14:39,458 | INFO | Cycle 6: invoking Fabric chaincode...
+2026-06-03 13:14:39,639 | INFO | Fabric StoreRecord success | CID: QmcLjNARC3VKVqpGrUyoDXYVLpCxSjTRMvjL1tFsH5wA2y | Cycle: 6
+2026-06-03 13:14:39,639 | INFO | Cycle 6 COMPLETE | CID: QmcLjNARC3VKVqpGrUyoDXYVLpCxSjTRMvjL1tFsH5wA2y | Hash: 39368b2a40585f4f... | Fabric: OK
+2026-06-03 13:15:23,071 | INFO | Sentinel detected: vanet_ready_7 → cycle 7
+2026-06-03 13:15:23,173 | INFO | ==================================================
+2026-06-03 13:15:23,173 | INFO | Processing cycle 7
+2026-06-03 13:15:23,176 | INFO | Cycle 7: read 650 flow rules
+2026-06-03 13:15:23,179 | INFO | Cycle 7: canonical JSON built (70791 bytes)
+2026-06-03 13:15:23,181 | INFO | Cycle 7: SHA-256 = 0dd44579b8bf6f92...
+2026-06-03 13:15:23,181 | INFO | Cycle 7: uploading to IPFS...
+2026-06-03 13:15:23,246 | INFO | IPFS upload success | CID: QmVARWUBzypubnMsTwJyu3W9a3feD5UakjtGFtFu8RmDN3
+2026-06-03 13:15:23,280 | INFO | Cycle 7: IPFS CID = QmVARWUBzypubnMsTwJyu3W9a3feD5UakjtGFtFu8RmDN3
+2026-06-03 13:15:23,280 | INFO | Cycle 7: invoking Fabric chaincode...
+2026-06-03 13:15:23,477 | INFO | Fabric StoreRecord success | CID: QmVARWUBzypubnMsTwJyu3W9a3feD5UakjtGFtFu8RmDN3 | Cycle: 7
+2026-06-03 13:15:23,478 | INFO | Cycle 7 COMPLETE | CID: QmVARWUBzypubnMsTwJyu3W9a3feD5UakjtGFtFu8RmDN3 | Hash: 0dd44579b8bf6f92... | Fabric: OK
+2026-06-03 13:16:09,074 | INFO | Sentinel detected: vanet_ready_8 → cycle 8
+2026-06-03 13:16:09,175 | INFO | ==================================================
+2026-06-03 13:16:09,176 | INFO | Processing cycle 8
+2026-06-03 13:16:09,178 | INFO | Cycle 8: read 665 flow rules
+2026-06-03 13:16:09,180 | INFO | Cycle 8: canonical JSON built (72430 bytes)
+2026-06-03 13:16:09,181 | INFO | Cycle 8: SHA-256 = 25e66f1ac5d420ee...
+2026-06-03 13:16:09,181 | INFO | Cycle 8: uploading to IPFS...
+2026-06-03 13:16:09,231 | INFO | IPFS upload success | CID: QmZgJDNPPrwnE4mHJX2dnKY5rwop3f4ByLQRjpkXvQ45Gh
+2026-06-03 13:16:09,258 | INFO | Cycle 8: IPFS CID = QmZgJDNPPrwnE4mHJX2dnKY5rwop3f4ByLQRjpkXvQ45Gh
+2026-06-03 13:16:09,258 | INFO | Cycle 8: invoking Fabric chaincode...
+2026-06-03 13:16:09,487 | INFO | Fabric StoreRecord success | CID: QmZgJDNPPrwnE4mHJX2dnKY5rwop3f4ByLQRjpkXvQ45Gh | Cycle: 8
+2026-06-03 13:16:09,489 | INFO | Cycle 8 COMPLETE | CID: QmZgJDNPPrwnE4mHJX2dnKY5rwop3f4ByLQRjpkXvQ45Gh | Hash: 25e66f1ac5d420ee... | Fabric: OK
+2026-06-03 13:16:55,884 | INFO | Sentinel detected: vanet_ready_9 → cycle 9
+2026-06-03 13:16:55,985 | INFO | ==================================================
+2026-06-03 13:16:55,986 | INFO | Processing cycle 9
+2026-06-03 13:16:55,987 | INFO | Cycle 9: read 661 flow rules
+2026-06-03 13:16:55,989 | INFO | Cycle 9: canonical JSON built (71698 bytes)
+2026-06-03 13:16:55,989 | INFO | Cycle 9: SHA-256 = 9ddbeb4f29d61335...
+2026-06-03 13:16:55,989 | INFO | Cycle 9: uploading to IPFS...
+2026-06-03 13:16:56,058 | INFO | IPFS upload success | CID: QmbEkebYWW6wsR5de7szKgypvcD91bRfWBx5mCzL3ZYoMz
+2026-06-03 13:16:56,082 | INFO | Cycle 9: IPFS CID = QmbEkebYWW6wsR5de7szKgypvcD91bRfWBx5mCzL3ZYoMz
+2026-06-03 13:16:56,083 | INFO | Cycle 9: invoking Fabric chaincode...
+2026-06-03 13:16:56,462 | INFO | Fabric StoreRecord success | CID: QmbEkebYWW6wsR5de7szKgypvcD91bRfWBx5mCzL3ZYoMz | Cycle: 9
+2026-06-03 13:16:56,462 | INFO | Cycle 9 COMPLETE | CID: QmbEkebYWW6wsR5de7szKgypvcD91bRfWBx5mCzL3ZYoMz | Hash: 9ddbeb4f29d61335... | Fabric: OK
+2026-06-03 13:17:43,069 | INFO | Sentinel detected: vanet_ready_10 → cycle 10
+2026-06-03 13:17:43,170 | INFO | ==================================================
+2026-06-03 13:17:43,170 | INFO | Processing cycle 10
+2026-06-03 13:17:43,171 | INFO | Cycle 10: read 696 flow rules
+2026-06-03 13:17:43,173 | INFO | Cycle 10: canonical JSON built (77235 bytes)
+2026-06-03 13:17:43,173 | INFO | Cycle 10: SHA-256 = 0cb032f7eadfd7bc...
+2026-06-03 13:17:43,173 | INFO | Cycle 10: uploading to IPFS...
+2026-06-03 13:17:43,225 | INFO | IPFS upload success | CID: QmSfRc7qofrhMJkHmqnNiAY6QBMTvtFzqnpbBco1B9ucSC
+2026-06-03 13:17:43,247 | INFO | Cycle 10: IPFS CID = QmSfRc7qofrhMJkHmqnNiAY6QBMTvtFzqnpbBco1B9ucSC
+2026-06-03 13:17:43,248 | INFO | Cycle 10: invoking Fabric chaincode...
+2026-06-03 13:17:43,454 | INFO | Fabric StoreRecord success | CID: QmSfRc7qofrhMJkHmqnNiAY6QBMTvtFzqnpbBco1B9ucSC | Cycle: 10
+2026-06-03 13:17:43,455 | INFO | Cycle 10 COMPLETE | CID: QmSfRc7qofrhMJkHmqnNiAY6QBMTvtFzqnpbBco1B9ucSC | Hash: 0cb032f7eadfd7bc... | Fabric: OK
+2026-06-03 13:18:36,959 | INFO | Sentinel detected: vanet_ready_11 → cycle 11
+2026-06-03 13:18:37,060 | INFO | ==================================================
+2026-06-03 13:18:37,060 | INFO | Processing cycle 11
+2026-06-03 13:18:37,062 | INFO | Cycle 11: read 682 flow rules
+2026-06-03 13:18:37,065 | INFO | Cycle 11: canonical JSON built (75624 bytes)
+2026-06-03 13:18:37,067 | INFO | Cycle 11: SHA-256 = fa280e2995ab5eb1...
+2026-06-03 13:18:37,080 | INFO | Cycle 11: uploading to IPFS...
+2026-06-03 13:18:37,147 | INFO | IPFS upload success | CID: QmPuhWT5A7LqaaHwiYijEtC5Mvq3VZc8AcyCArQa3JfnLs
+2026-06-03 13:18:37,204 | INFO | Cycle 11: IPFS CID = QmPuhWT5A7LqaaHwiYijEtC5Mvq3VZc8AcyCArQa3JfnLs
+2026-06-03 13:18:37,204 | INFO | Cycle 11: invoking Fabric chaincode...
+2026-06-03 13:18:37,462 | INFO | Fabric StoreRecord success | CID: QmPuhWT5A7LqaaHwiYijEtC5Mvq3VZc8AcyCArQa3JfnLs | Cycle: 11
+2026-06-03 13:18:37,463 | INFO | Cycle 11 COMPLETE | CID: QmPuhWT5A7LqaaHwiYijEtC5Mvq3VZc8AcyCArQa3JfnLs | Hash: fa280e2995ab5eb1... | Fabric: OK
+2026-06-03 13:19:21,261 | INFO | Sentinel detected: vanet_ready_12 → cycle 12
+2026-06-03 13:19:21,374 | INFO | ==================================================
+2026-06-03 13:19:21,374 | INFO | Processing cycle 12
+2026-06-03 13:19:21,375 | INFO | Cycle 12: read 689 flow rules
+2026-06-03 13:19:21,377 | INFO | Cycle 12: canonical JSON built (76245 bytes)
+2026-06-03 13:19:21,378 | INFO | Cycle 12: SHA-256 = 986b4185ca64afb1...
+2026-06-03 13:19:21,378 | INFO | Cycle 12: uploading to IPFS...
+2026-06-03 13:19:21,431 | INFO | IPFS upload success | CID: QmXw5q86xxwr4fKFnwkeWjZ4kkdpLwgvyerfJee22kGkjW
+2026-06-03 13:19:21,464 | INFO | Cycle 12: IPFS CID = QmXw5q86xxwr4fKFnwkeWjZ4kkdpLwgvyerfJee22kGkjW
+2026-06-03 13:19:21,464 | INFO | Cycle 12: invoking Fabric chaincode...
+2026-06-03 13:19:21,668 | INFO | Fabric StoreRecord success | CID: QmXw5q86xxwr4fKFnwkeWjZ4kkdpLwgvyerfJee22kGkjW | Cycle: 12
+2026-06-03 13:19:21,668 | INFO | Cycle 12 COMPLETE | CID: QmXw5q86xxwr4fKFnwkeWjZ4kkdpLwgvyerfJee22kGkjW | Hash: 986b4185ca64afb1... | Fabric: OK
+2026-06-03 13:20:08,385 | INFO | Sentinel detected: vanet_ready_13 → cycle 13
+2026-06-03 13:20:08,486 | INFO | ==================================================
+2026-06-03 13:20:08,486 | INFO | Processing cycle 13
+2026-06-03 13:20:08,488 | INFO | Cycle 13: read 704 flow rules
+2026-06-03 13:20:08,490 | INFO | Cycle 13: canonical JSON built (78221 bytes)
+2026-06-03 13:20:08,491 | INFO | Cycle 13: SHA-256 = 4c68cc24ed18049c...
+2026-06-03 13:20:08,491 | INFO | Cycle 13: uploading to IPFS...
+2026-06-03 13:20:08,555 | INFO | IPFS upload success | CID: QmdtJ1ogc1HtZRNT49xQdLMTb6Rt24YATBREBrdqJoyV72
+2026-06-03 13:20:08,577 | INFO | Cycle 13: IPFS CID = QmdtJ1ogc1HtZRNT49xQdLMTb6Rt24YATBREBrdqJoyV72
+2026-06-03 13:20:08,578 | INFO | Cycle 13: invoking Fabric chaincode...
+2026-06-03 13:20:08,876 | INFO | Fabric StoreRecord success | CID: QmdtJ1ogc1HtZRNT49xQdLMTb6Rt24YATBREBrdqJoyV72 | Cycle: 13
+2026-06-03 13:20:08,876 | INFO | Cycle 13 COMPLETE | CID: QmdtJ1ogc1HtZRNT49xQdLMTb6Rt24YATBREBrdqJoyV72 | Hash: 4c68cc24ed18049c... | Fabric: OK
+2026-06-03 15:53:55,842 | INFO | VANET Blockchain Middleware starting...
+2026-06-03 15:53:55,843 | INFO | Watching directory: /tmp
+2026-06-03 15:53:55,843 | INFO | Log file: /home/chamod/vanet_middleware/logs/middleware.log
+2026-06-03 15:53:55,844 | INFO | Middleware ready — waiting for cycles from fix.cc...
+2026-06-03 15:54:31,330 | INFO | Sentinel detected: vanet_ready_1 → cycle 1
+2026-06-03 15:54:31,431 | INFO | ==================================================
+2026-06-03 15:54:31,431 | INFO | Processing cycle 1
+2026-06-03 15:54:31,433 | INFO | Cycle 1: read 428 flow rules
+2026-06-03 15:54:31,435 | INFO | Cycle 1: canonical JSON built (46369 bytes)
+2026-06-03 15:54:31,435 | INFO | Cycle 1: SHA-256 = e7db2b319d0da357...
+2026-06-03 15:54:31,435 | INFO | Cycle 1: uploading to IPFS...
+2026-06-03 15:54:31,473 | INFO | IPFS upload success | CID: QmceAPQPFxbBq9aXRn4za5Yt3PEpoSTLVHPsBMFQvrCRNB
+2026-06-03 15:54:31,494 | INFO | Cycle 1: IPFS CID = QmceAPQPFxbBq9aXRn4za5Yt3PEpoSTLVHPsBMFQvrCRNB
+2026-06-03 15:54:31,495 | INFO | Cycle 1: invoking Fabric chaincode...
+2026-06-03 15:54:31,711 | INFO | Fabric StoreRecord success | CID: QmceAPQPFxbBq9aXRn4za5Yt3PEpoSTLVHPsBMFQvrCRNB | Cycle: 1
+2026-06-03 15:54:31,712 | INFO | Cycle 1 COMPLETE | CID: QmceAPQPFxbBq9aXRn4za5Yt3PEpoSTLVHPsBMFQvrCRNB | Hash: e7db2b319d0da357... | Fabric: OK
+2026-06-03 15:55:18,245 | INFO | Sentinel detected: vanet_ready_2 → cycle 2
+2026-06-03 15:55:18,347 | INFO | ==================================================
+2026-06-03 15:55:18,347 | INFO | Processing cycle 2
+2026-06-03 15:55:18,348 | INFO | Cycle 2: read 523 flow rules
+2026-06-03 15:55:18,350 | INFO | Cycle 2: canonical JSON built (56772 bytes)
+2026-06-03 15:55:18,350 | INFO | Cycle 2: SHA-256 = d27ca02e15473d8c...
+2026-06-03 15:55:18,350 | INFO | Cycle 2: uploading to IPFS...
+2026-06-03 15:55:18,381 | INFO | IPFS upload success | CID: QmPuGhi6TzbDyaH7ZKDS574Hz9FgdYy4JK7D3q46jPSr1W
+2026-06-03 15:55:18,398 | INFO | Cycle 2: IPFS CID = QmPuGhi6TzbDyaH7ZKDS574Hz9FgdYy4JK7D3q46jPSr1W
+2026-06-03 15:55:18,398 | INFO | Cycle 2: invoking Fabric chaincode...
+2026-06-03 15:55:18,696 | INFO | Fabric StoreRecord success | CID: QmPuGhi6TzbDyaH7ZKDS574Hz9FgdYy4JK7D3q46jPSr1W | Cycle: 2
+2026-06-03 15:55:18,697 | INFO | Cycle 2 COMPLETE | CID: QmPuGhi6TzbDyaH7ZKDS574Hz9FgdYy4JK7D3q46jPSr1W | Hash: d27ca02e15473d8c... | Fabric: OK
+2026-06-03 15:56:00,027 | INFO | Sentinel detected: vanet_ready_3 → cycle 3
+2026-06-03 15:56:00,129 | INFO | ==================================================
+2026-06-03 15:56:00,129 | INFO | Processing cycle 3
+2026-06-03 15:56:00,131 | INFO | Cycle 3: read 570 flow rules
+2026-06-03 15:56:00,132 | INFO | Cycle 3: canonical JSON built (61852 bytes)
+2026-06-03 15:56:00,133 | INFO | Cycle 3: SHA-256 = 182118283ea21812...
+2026-06-03 15:56:00,133 | INFO | Cycle 3: uploading to IPFS...
+2026-06-03 15:56:00,165 | INFO | IPFS upload success | CID: QmVUnPFSvefaRHLAQdk75SLjHg1zQocCXLNsbdXi5HFWDC
+2026-06-03 15:56:00,189 | INFO | Cycle 3: IPFS CID = QmVUnPFSvefaRHLAQdk75SLjHg1zQocCXLNsbdXi5HFWDC
+2026-06-03 15:56:00,191 | INFO | Cycle 3: invoking Fabric chaincode...
+2026-06-03 15:56:00,469 | INFO | Fabric StoreRecord success | CID: QmVUnPFSvefaRHLAQdk75SLjHg1zQocCXLNsbdXi5HFWDC | Cycle: 3
+2026-06-03 15:56:00,470 | INFO | Cycle 3 COMPLETE | CID: QmVUnPFSvefaRHLAQdk75SLjHg1zQocCXLNsbdXi5HFWDC | Hash: 182118283ea21812... | Fabric: OK
+2026-06-03 15:57:03,381 | INFO | Sentinel detected: vanet_ready_4 → cycle 4
+2026-06-03 15:57:03,482 | INFO | ==================================================
+2026-06-03 15:57:03,482 | INFO | Processing cycle 4
+2026-06-03 15:57:03,484 | INFO | Cycle 4: read 606 flow rules
+2026-06-03 15:57:03,486 | INFO | Cycle 4: canonical JSON built (65745 bytes)
+2026-06-03 15:57:03,486 | INFO | Cycle 4: SHA-256 = 531c4b2966ba3e8e...
+2026-06-03 15:57:03,486 | INFO | Cycle 4: uploading to IPFS...
+2026-06-03 15:57:03,513 | INFO | IPFS upload success | CID: QmS3THhF6BhwtMddjPLfo7g8W3uGoeHWRGPCcgGbpAQfu3
+2026-06-03 15:57:03,532 | INFO | Cycle 4: IPFS CID = QmS3THhF6BhwtMddjPLfo7g8W3uGoeHWRGPCcgGbpAQfu3
+2026-06-03 15:57:03,532 | INFO | Cycle 4: invoking Fabric chaincode...
+2026-06-03 15:57:03,838 | INFO | Fabric StoreRecord success | CID: QmS3THhF6BhwtMddjPLfo7g8W3uGoeHWRGPCcgGbpAQfu3 | Cycle: 4
+2026-06-03 15:57:03,838 | INFO | Cycle 4 COMPLETE | CID: QmS3THhF6BhwtMddjPLfo7g8W3uGoeHWRGPCcgGbpAQfu3 | Hash: 531c4b2966ba3e8e... | Fabric: OK
+2026-06-03 15:58:00,091 | INFO | Sentinel detected: vanet_ready_5 → cycle 5
+2026-06-03 15:58:00,194 | INFO | ==================================================
+2026-06-03 15:58:00,194 | INFO | Processing cycle 5
+2026-06-03 15:58:00,196 | INFO | Cycle 5: read 642 flow rules
+2026-06-03 15:58:00,199 | INFO | Cycle 5: canonical JSON built (69520 bytes)
+2026-06-03 15:58:00,199 | INFO | Cycle 5: SHA-256 = ad9e903ebe5a517f...
+2026-06-03 15:58:00,199 | INFO | Cycle 5: uploading to IPFS...
+2026-06-03 15:58:00,228 | INFO | IPFS upload success | CID: QmePYQxcDo52xGWDUETr5nX7m5iPX3Sc6uk9RTWvNoAwQe
+2026-06-03 15:58:00,260 | INFO | Cycle 5: IPFS CID = QmePYQxcDo52xGWDUETr5nX7m5iPX3Sc6uk9RTWvNoAwQe
+2026-06-03 15:58:00,261 | INFO | Cycle 5: invoking Fabric chaincode...
+2026-06-03 15:58:00,567 | INFO | Fabric StoreRecord success | CID: QmePYQxcDo52xGWDUETr5nX7m5iPX3Sc6uk9RTWvNoAwQe | Cycle: 5
+2026-06-03 15:58:00,568 | INFO | Cycle 5 COMPLETE | CID: QmePYQxcDo52xGWDUETr5nX7m5iPX3Sc6uk9RTWvNoAwQe | Hash: ad9e903ebe5a517f... | Fabric: OK
+2026-06-03 15:58:47,745 | INFO | Sentinel detected: vanet_ready_6 → cycle 6
+2026-06-03 15:58:47,846 | INFO | ==================================================
+2026-06-03 15:58:47,846 | INFO | Processing cycle 6
+2026-06-03 15:58:47,849 | INFO | Cycle 6: read 657 flow rules
+2026-06-03 15:58:47,853 | INFO | Cycle 6: canonical JSON built (71260 bytes)
+2026-06-03 15:58:47,854 | INFO | Cycle 6: SHA-256 = 39368b2a40585f4f...
+2026-06-03 15:58:47,854 | INFO | Cycle 6: uploading to IPFS...
+2026-06-03 15:58:47,881 | INFO | IPFS upload success | CID: QmcLjNARC3VKVqpGrUyoDXYVLpCxSjTRMvjL1tFsH5wA2y
+2026-06-03 15:58:47,907 | INFO | Cycle 6: IPFS CID = QmcLjNARC3VKVqpGrUyoDXYVLpCxSjTRMvjL1tFsH5wA2y
+2026-06-03 15:58:47,908 | INFO | Cycle 6: invoking Fabric chaincode...
+2026-06-03 15:58:48,120 | INFO | Fabric StoreRecord success | CID: QmcLjNARC3VKVqpGrUyoDXYVLpCxSjTRMvjL1tFsH5wA2y | Cycle: 6
+2026-06-03 15:58:48,120 | INFO | Cycle 6 COMPLETE | CID: QmcLjNARC3VKVqpGrUyoDXYVLpCxSjTRMvjL1tFsH5wA2y | Hash: 39368b2a40585f4f... | Fabric: OK
+2026-06-03 15:59:32,771 | INFO | Sentinel detected: vanet_ready_7 → cycle 7
+2026-06-03 15:59:32,872 | INFO | ==================================================
+2026-06-03 15:59:32,872 | INFO | Processing cycle 7
+2026-06-03 15:59:32,874 | INFO | Cycle 7: read 650 flow rules
+2026-06-03 15:59:32,877 | INFO | Cycle 7: canonical JSON built (70791 bytes)
+2026-06-03 15:59:32,877 | INFO | Cycle 7: SHA-256 = 0dd44579b8bf6f92...
+2026-06-03 15:59:32,877 | INFO | Cycle 7: uploading to IPFS...
+2026-06-03 15:59:32,905 | INFO | IPFS upload success | CID: QmVARWUBzypubnMsTwJyu3W9a3feD5UakjtGFtFu8RmDN3
+2026-06-03 15:59:32,928 | INFO | Cycle 7: IPFS CID = QmVARWUBzypubnMsTwJyu3W9a3feD5UakjtGFtFu8RmDN3
+2026-06-03 15:59:32,928 | INFO | Cycle 7: invoking Fabric chaincode...
+2026-06-03 15:59:33,210 | INFO | Fabric StoreRecord success | CID: QmVARWUBzypubnMsTwJyu3W9a3feD5UakjtGFtFu8RmDN3 | Cycle: 7
+2026-06-03 15:59:33,210 | INFO | Cycle 7 COMPLETE | CID: QmVARWUBzypubnMsTwJyu3W9a3feD5UakjtGFtFu8RmDN3 | Hash: 0dd44579b8bf6f92... | Fabric: OK
+2026-06-03 16:00:22,906 | INFO | Sentinel detected: vanet_ready_8 → cycle 8
+2026-06-03 16:00:23,007 | INFO | ==================================================
+2026-06-03 16:00:23,007 | INFO | Processing cycle 8
+2026-06-03 16:00:23,009 | INFO | Cycle 8: read 665 flow rules
+2026-06-03 16:00:23,012 | INFO | Cycle 8: canonical JSON built (72430 bytes)
+2026-06-03 16:00:23,013 | INFO | Cycle 8: SHA-256 = 25e66f1ac5d420ee...
+2026-06-03 16:00:23,013 | INFO | Cycle 8: uploading to IPFS...
+2026-06-03 16:00:23,044 | INFO | IPFS upload success | CID: QmZgJDNPPrwnE4mHJX2dnKY5rwop3f4ByLQRjpkXvQ45Gh
+2026-06-03 16:00:23,063 | INFO | Cycle 8: IPFS CID = QmZgJDNPPrwnE4mHJX2dnKY5rwop3f4ByLQRjpkXvQ45Gh
+2026-06-03 16:00:23,063 | INFO | Cycle 8: invoking Fabric chaincode...
+2026-06-03 16:00:23,278 | INFO | Fabric StoreRecord success | CID: QmZgJDNPPrwnE4mHJX2dnKY5rwop3f4ByLQRjpkXvQ45Gh | Cycle: 8
+2026-06-03 16:00:23,278 | INFO | Cycle 8 COMPLETE | CID: QmZgJDNPPrwnE4mHJX2dnKY5rwop3f4ByLQRjpkXvQ45Gh | Hash: 25e66f1ac5d420ee... | Fabric: OK
+2026-06-03 16:01:09,387 | INFO | Sentinel detected: vanet_ready_9 → cycle 9
+2026-06-03 16:01:09,489 | INFO | ==================================================
+2026-06-03 16:01:09,490 | INFO | Processing cycle 9
+2026-06-03 16:01:09,491 | INFO | Cycle 9: read 661 flow rules
+2026-06-03 16:01:09,493 | INFO | Cycle 9: canonical JSON built (71698 bytes)
+2026-06-03 16:01:09,493 | INFO | Cycle 9: SHA-256 = 9ddbeb4f29d61335...
+2026-06-03 16:01:09,493 | INFO | Cycle 9: uploading to IPFS...
+2026-06-03 16:01:09,518 | INFO | IPFS upload success | CID: QmbEkebYWW6wsR5de7szKgypvcD91bRfWBx5mCzL3ZYoMz
+2026-06-03 16:01:09,539 | INFO | Cycle 9: IPFS CID = QmbEkebYWW6wsR5de7szKgypvcD91bRfWBx5mCzL3ZYoMz
+2026-06-03 16:01:09,539 | INFO | Cycle 9: invoking Fabric chaincode...
+2026-06-03 16:01:09,708 | INFO | Fabric StoreRecord success | CID: QmbEkebYWW6wsR5de7szKgypvcD91bRfWBx5mCzL3ZYoMz | Cycle: 9
+2026-06-03 16:01:09,709 | INFO | Cycle 9 COMPLETE | CID: QmbEkebYWW6wsR5de7szKgypvcD91bRfWBx5mCzL3ZYoMz | Hash: 9ddbeb4f29d61335... | Fabric: OK
+2026-06-03 16:02:01,594 | INFO | Sentinel detected: vanet_ready_10 → cycle 10
+2026-06-03 16:02:01,695 | INFO | ==================================================
+2026-06-03 16:02:01,696 | INFO | Processing cycle 10
+2026-06-03 16:02:01,697 | INFO | Cycle 10: read 696 flow rules
+2026-06-03 16:02:01,700 | INFO | Cycle 10: canonical JSON built (77235 bytes)
+2026-06-03 16:02:01,712 | INFO | Cycle 10: SHA-256 = 0cb032f7eadfd7bc...
+2026-06-03 16:02:01,719 | INFO | Cycle 10: uploading to IPFS...
+2026-06-03 16:02:01,754 | INFO | IPFS upload success | CID: QmSfRc7qofrhMJkHmqnNiAY6QBMTvtFzqnpbBco1B9ucSC
+2026-06-03 16:02:01,771 | INFO | Cycle 10: IPFS CID = QmSfRc7qofrhMJkHmqnNiAY6QBMTvtFzqnpbBco1B9ucSC
+2026-06-03 16:02:01,771 | INFO | Cycle 10: invoking Fabric chaincode...
+2026-06-03 16:02:01,918 | INFO | Fabric StoreRecord success | CID: QmSfRc7qofrhMJkHmqnNiAY6QBMTvtFzqnpbBco1B9ucSC | Cycle: 10
+2026-06-03 16:02:01,918 | INFO | Cycle 10 COMPLETE | CID: QmSfRc7qofrhMJkHmqnNiAY6QBMTvtFzqnpbBco1B9ucSC | Hash: 0cb032f7eadfd7bc... | Fabric: OK
+2026-06-03 16:03:07,311 | INFO | Sentinel detected: vanet_ready_11 → cycle 11
+2026-06-03 16:03:07,412 | INFO | ==================================================
+2026-06-03 16:03:07,412 | INFO | Processing cycle 11
+2026-06-03 16:03:07,415 | INFO | Cycle 11: read 682 flow rules
+2026-06-03 16:03:07,422 | INFO | Cycle 11: canonical JSON built (75624 bytes)
+2026-06-03 16:03:07,422 | INFO | Cycle 11: SHA-256 = fa280e2995ab5eb1...
+2026-06-03 16:03:07,423 | INFO | Cycle 11: uploading to IPFS...
+2026-06-03 16:03:07,462 | INFO | IPFS upload success | CID: QmPuhWT5A7LqaaHwiYijEtC5Mvq3VZc8AcyCArQa3JfnLs
+2026-06-03 16:03:07,493 | INFO | Cycle 11: IPFS CID = QmPuhWT5A7LqaaHwiYijEtC5Mvq3VZc8AcyCArQa3JfnLs
+2026-06-03 16:03:07,493 | INFO | Cycle 11: invoking Fabric chaincode...
+2026-06-03 16:03:07,701 | INFO | Fabric StoreRecord success | CID: QmPuhWT5A7LqaaHwiYijEtC5Mvq3VZc8AcyCArQa3JfnLs | Cycle: 11
+2026-06-03 16:03:07,701 | INFO | Cycle 11 COMPLETE | CID: QmPuhWT5A7LqaaHwiYijEtC5Mvq3VZc8AcyCArQa3JfnLs | Hash: fa280e2995ab5eb1... | Fabric: OK
+2026-06-03 16:03:52,775 | INFO | Sentinel detected: vanet_ready_12 → cycle 12
+2026-06-03 16:03:52,877 | INFO | ==================================================
+2026-06-03 16:03:52,877 | INFO | Processing cycle 12
+2026-06-03 16:03:52,878 | INFO | Cycle 12: read 689 flow rules
+2026-06-03 16:03:52,881 | INFO | Cycle 12: canonical JSON built (76245 bytes)
+2026-06-03 16:03:52,882 | INFO | Cycle 12: SHA-256 = 986b4185ca64afb1...
+2026-06-03 16:03:52,882 | INFO | Cycle 12: uploading to IPFS...
+2026-06-03 16:03:52,901 | INFO | IPFS upload success | CID: QmXw5q86xxwr4fKFnwkeWjZ4kkdpLwgvyerfJee22kGkjW
+2026-06-03 16:03:52,921 | INFO | Cycle 12: IPFS CID = QmXw5q86xxwr4fKFnwkeWjZ4kkdpLwgvyerfJee22kGkjW
+2026-06-03 16:03:52,921 | INFO | Cycle 12: invoking Fabric chaincode...
+2026-06-03 16:03:53,045 | INFO | Fabric StoreRecord success | CID: QmXw5q86xxwr4fKFnwkeWjZ4kkdpLwgvyerfJee22kGkjW | Cycle: 12
+2026-06-03 16:03:53,046 | INFO | Cycle 12 COMPLETE | CID: QmXw5q86xxwr4fKFnwkeWjZ4kkdpLwgvyerfJee22kGkjW | Hash: 986b4185ca64afb1... | Fabric: OK
+2026-06-03 16:04:38,345 | INFO | Sentinel detected: vanet_ready_13 → cycle 13
+2026-06-03 16:04:38,446 | INFO | ==================================================
+2026-06-03 16:04:38,446 | INFO | Processing cycle 13
+2026-06-03 16:04:38,447 | INFO | Cycle 13: read 704 flow rules
+2026-06-03 16:04:38,449 | INFO | Cycle 13: canonical JSON built (78221 bytes)
+2026-06-03 16:04:38,449 | INFO | Cycle 13: SHA-256 = 4c68cc24ed18049c...
+2026-06-03 16:04:38,449 | INFO | Cycle 13: uploading to IPFS...
+2026-06-03 16:04:38,471 | INFO | IPFS upload success | CID: QmdtJ1ogc1HtZRNT49xQdLMTb6Rt24YATBREBrdqJoyV72
+2026-06-03 16:04:38,484 | INFO | Cycle 13: IPFS CID = QmdtJ1ogc1HtZRNT49xQdLMTb6Rt24YATBREBrdqJoyV72
+2026-06-03 16:04:38,485 | INFO | Cycle 13: invoking Fabric chaincode...
+2026-06-03 16:04:38,569 | INFO | Fabric StoreRecord success | CID: QmdtJ1ogc1HtZRNT49xQdLMTb6Rt24YATBREBrdqJoyV72 | Cycle: 13
+2026-06-03 16:04:38,570 | INFO | Cycle 13 COMPLETE | CID: QmdtJ1ogc1HtZRNT49xQdLMTb6Rt24YATBREBrdqJoyV72 | Hash: 4c68cc24ed18049c... | Fabric: OK
+2026-06-07 22:04:20,031 | INFO | VANET Blockchain Middleware starting...
+2026-06-07 22:04:20,032 | INFO | Watching directory: /tmp
+2026-06-07 22:04:20,032 | INFO | Log file: /home/chamod/vanet_middleware/logs/middleware.log
+2026-06-07 22:04:20,034 | INFO | Middleware ready — waiting for cycles from fix.cc...
+2026-06-07 22:06:13,468 | INFO | Sentinel detected: vanet_ready_1 → cycle 1
+2026-06-07 22:06:13,569 | INFO | ==================================================
+2026-06-07 22:06:13,569 | INFO | Processing cycle 1
+2026-06-07 22:06:13,570 | INFO | Cycle 1: read 71 flow rules
+2026-06-07 22:06:13,571 | INFO | Cycle 1: canonical JSON built (7952 bytes)
+2026-06-07 22:06:13,571 | INFO | Cycle 1: SHA-256 = a5ea882ba55295a6...
+2026-06-07 22:06:13,571 | INFO | Cycle 1: uploading to IPFS...
+2026-06-07 22:06:13,630 | INFO | IPFS upload success | CID: QmWqgGDWfLt6udFnU6H1BzANccgseKSqvM5ZKwTgXjA7Xt
+2026-06-07 22:06:13,675 | INFO | Cycle 1: IPFS CID = QmWqgGDWfLt6udFnU6H1BzANccgseKSqvM5ZKwTgXjA7Xt
+2026-06-07 22:06:13,675 | INFO | Cycle 1: invoking Fabric chaincode...
+2026-06-07 22:06:13,814 | INFO | Fabric StoreRecord success | CID: QmWqgGDWfLt6udFnU6H1BzANccgseKSqvM5ZKwTgXjA7Xt | Cycle: 1
+2026-06-07 22:06:13,814 | INFO | Cycle 1 COMPLETE | CID: QmWqgGDWfLt6udFnU6H1BzANccgseKSqvM5ZKwTgXjA7Xt | Hash: a5ea882ba55295a6... | Fabric: OK
+2026-06-07 22:06:57,661 | INFO | Sentinel detected: vanet_ready_2 → cycle 2
+2026-06-07 22:06:57,922 | INFO | ==================================================
+2026-06-07 22:06:57,923 | INFO | Processing cycle 2
+2026-06-07 22:06:57,924 | INFO | Cycle 2: read 88 flow rules
+2026-06-07 22:06:57,925 | INFO | Cycle 2: canonical JSON built (9822 bytes)
+2026-06-07 22:06:57,925 | INFO | Cycle 2: SHA-256 = 3375d2a6b329293a...
+2026-06-07 22:06:57,925 | INFO | Cycle 2: uploading to IPFS...
+2026-06-07 22:06:57,986 | INFO | IPFS upload success | CID: QmQiDLpyLR7zrGcNuoGSGYDithS6PgXbt9VLBG2JV6sYpS
+2026-06-07 22:06:58,023 | INFO | Cycle 2: IPFS CID = QmQiDLpyLR7zrGcNuoGSGYDithS6PgXbt9VLBG2JV6sYpS
+2026-06-07 22:06:58,028 | INFO | Cycle 2: invoking Fabric chaincode...
+2026-06-07 22:06:58,200 | INFO | Fabric StoreRecord success | CID: QmQiDLpyLR7zrGcNuoGSGYDithS6PgXbt9VLBG2JV6sYpS | Cycle: 2
+2026-06-07 22:06:58,200 | INFO | Cycle 2 COMPLETE | CID: QmQiDLpyLR7zrGcNuoGSGYDithS6PgXbt9VLBG2JV6sYpS | Hash: 3375d2a6b329293a... | Fabric: OK
+2026-06-07 22:07:52,447 | INFO | Sentinel detected: vanet_ready_3 → cycle 3
+2026-06-07 22:07:52,548 | INFO | ==================================================
+2026-06-07 22:07:52,548 | INFO | Processing cycle 3
+2026-06-07 22:07:52,550 | INFO | Cycle 3: read 109 flow rules
+2026-06-07 22:07:52,551 | INFO | Cycle 3: canonical JSON built (12138 bytes)
+2026-06-07 22:07:52,551 | INFO | Cycle 3: SHA-256 = b4d45675991601bf...
+2026-06-07 22:07:52,551 | INFO | Cycle 3: uploading to IPFS...
+2026-06-07 22:07:52,658 | INFO | IPFS upload success | CID: QmeeiW1tGYtHhr5JZx9V4oogdicEgBfT6NWLwqu8EYGzvP
+2026-06-07 22:07:52,710 | INFO | Cycle 3: IPFS CID = QmeeiW1tGYtHhr5JZx9V4oogdicEgBfT6NWLwqu8EYGzvP
+2026-06-07 22:07:52,711 | INFO | Cycle 3: invoking Fabric chaincode...
+2026-06-07 22:07:53,065 | INFO | Fabric StoreRecord success | CID: QmeeiW1tGYtHhr5JZx9V4oogdicEgBfT6NWLwqu8EYGzvP | Cycle: 3
+2026-06-07 22:07:53,066 | INFO | Cycle 3 COMPLETE | CID: QmeeiW1tGYtHhr5JZx9V4oogdicEgBfT6NWLwqu8EYGzvP | Hash: b4d45675991601bf... | Fabric: OK
+2026-06-07 22:08:46,333 | INFO | Sentinel detected: vanet_ready_4 → cycle 4
+2026-06-07 22:08:46,435 | INFO | ==================================================
+2026-06-07 22:08:46,435 | INFO | Processing cycle 4
+2026-06-07 22:08:46,436 | INFO | Cycle 4: read 119 flow rules
+2026-06-07 22:08:46,437 | INFO | Cycle 4: canonical JSON built (13219 bytes)
+2026-06-07 22:08:46,437 | INFO | Cycle 4: SHA-256 = 5b2c503de8eff330...
+2026-06-07 22:08:46,437 | INFO | Cycle 4: uploading to IPFS...
+2026-06-07 22:08:46,480 | INFO | IPFS upload success | CID: QmTvUT3DdaVHnpngfmZsPjiV8BMKKW8DboSEhTUCsfzkep
+2026-06-07 22:08:46,528 | INFO | Cycle 4: IPFS CID = QmTvUT3DdaVHnpngfmZsPjiV8BMKKW8DboSEhTUCsfzkep
+2026-06-07 22:08:46,529 | INFO | Cycle 4: invoking Fabric chaincode...
+2026-06-07 22:08:46,690 | INFO | Fabric StoreRecord success | CID: QmTvUT3DdaVHnpngfmZsPjiV8BMKKW8DboSEhTUCsfzkep | Cycle: 4
+2026-06-07 22:08:46,690 | INFO | Cycle 4 COMPLETE | CID: QmTvUT3DdaVHnpngfmZsPjiV8BMKKW8DboSEhTUCsfzkep | Hash: 5b2c503de8eff330... | Fabric: OK
+2026-06-07 22:09:35,223 | INFO | Sentinel detected: vanet_ready_5 → cycle 5
+2026-06-07 22:09:35,327 | INFO | ==================================================
+2026-06-07 22:09:35,327 | INFO | Processing cycle 5
+2026-06-07 22:09:35,328 | INFO | Cycle 5: read 131 flow rules
+2026-06-07 22:09:35,328 | INFO | Cycle 5: canonical JSON built (14565 bytes)
+2026-06-07 22:09:35,329 | INFO | Cycle 5: SHA-256 = 7480f2fdf61c444c...
+2026-06-07 22:09:35,329 | INFO | Cycle 5: uploading to IPFS...
+2026-06-07 22:09:35,365 | INFO | IPFS upload success | CID: QmS71pHUXeaczh9keRe42YGJrtjzJUUANFzZREQNDnyDTi
+2026-06-07 22:09:35,384 | INFO | Cycle 5: IPFS CID = QmS71pHUXeaczh9keRe42YGJrtjzJUUANFzZREQNDnyDTi
+2026-06-07 22:09:35,384 | INFO | Cycle 5: invoking Fabric chaincode...
+2026-06-07 22:09:35,569 | INFO | Fabric StoreRecord success | CID: QmS71pHUXeaczh9keRe42YGJrtjzJUUANFzZREQNDnyDTi | Cycle: 5
+2026-06-07 22:09:35,570 | INFO | Cycle 5 COMPLETE | CID: QmS71pHUXeaczh9keRe42YGJrtjzJUUANFzZREQNDnyDTi | Hash: 7480f2fdf61c444c... | Fabric: OK
+2026-06-07 22:10:22,372 | INFO | Sentinel detected: vanet_ready_6 → cycle 6
+2026-06-07 22:10:22,473 | INFO | ==================================================
+2026-06-07 22:10:22,473 | INFO | Processing cycle 6
+2026-06-07 22:10:22,474 | INFO | Cycle 6: read 96 flow rules
+2026-06-07 22:10:22,474 | INFO | Cycle 6: canonical JSON built (10696 bytes)
+2026-06-07 22:10:22,474 | INFO | Cycle 6: SHA-256 = c74442570ddef3ab...
+2026-06-07 22:10:22,474 | INFO | Cycle 6: uploading to IPFS...
+2026-06-07 22:10:22,515 | INFO | IPFS upload success | CID: QmSvb77jYhnZXUS2bUn6SzJRqw5x7xyZL2DEsspKh4aMFT
+2026-06-07 22:10:22,546 | INFO | Cycle 6: IPFS CID = QmSvb77jYhnZXUS2bUn6SzJRqw5x7xyZL2DEsspKh4aMFT
+2026-06-07 22:10:22,546 | INFO | Cycle 6: invoking Fabric chaincode...
+2026-06-07 22:10:22,740 | INFO | Fabric StoreRecord success | CID: QmSvb77jYhnZXUS2bUn6SzJRqw5x7xyZL2DEsspKh4aMFT | Cycle: 6
+2026-06-07 22:10:22,740 | INFO | Cycle 6 COMPLETE | CID: QmSvb77jYhnZXUS2bUn6SzJRqw5x7xyZL2DEsspKh4aMFT | Hash: c74442570ddef3ab... | Fabric: OK
+2026-06-07 22:11:07,509 | INFO | Sentinel detected: vanet_ready_7 → cycle 7
+2026-06-07 22:11:07,610 | INFO | ==================================================
+2026-06-07 22:11:07,610 | INFO | Processing cycle 7
+2026-06-07 22:11:07,610 | INFO | Cycle 7: read 80 flow rules
+2026-06-07 22:11:07,611 | INFO | Cycle 7: canonical JSON built (8956 bytes)
+2026-06-07 22:11:07,611 | INFO | Cycle 7: SHA-256 = f80937c3b4aa7a99...
+2026-06-07 22:11:07,611 | INFO | Cycle 7: uploading to IPFS...
+2026-06-07 22:11:07,654 | INFO | IPFS upload success | CID: QmYUqvGmJWysg6YseP6FhdiZqE8yJtaJYzFLRcBYuMdiDL
+2026-06-07 22:11:07,750 | INFO | Cycle 7: IPFS CID = QmYUqvGmJWysg6YseP6FhdiZqE8yJtaJYzFLRcBYuMdiDL
+2026-06-07 22:11:07,750 | INFO | Cycle 7: invoking Fabric chaincode...
+2026-06-07 22:11:07,976 | INFO | Fabric StoreRecord success | CID: QmYUqvGmJWysg6YseP6FhdiZqE8yJtaJYzFLRcBYuMdiDL | Cycle: 7
+2026-06-07 22:11:07,977 | INFO | Cycle 7 COMPLETE | CID: QmYUqvGmJWysg6YseP6FhdiZqE8yJtaJYzFLRcBYuMdiDL | Hash: f80937c3b4aa7a99... | Fabric: OK
+2026-06-07 22:11:53,052 | INFO | Sentinel detected: vanet_ready_8 → cycle 8
+2026-06-07 22:11:53,155 | INFO | ==================================================
+2026-06-07 22:11:53,155 | INFO | Processing cycle 8
+2026-06-07 22:11:53,155 | INFO | Cycle 8: read 111 flow rules
+2026-06-07 22:11:53,156 | INFO | Cycle 8: canonical JSON built (12323 bytes)
+2026-06-07 22:11:53,156 | INFO | Cycle 8: SHA-256 = 25d34e047f86a6ea...
+2026-06-07 22:11:53,156 | INFO | Cycle 8: uploading to IPFS...
+2026-06-07 22:11:53,208 | INFO | IPFS upload success | CID: QmUCyFrpjsYbBtmmGXhp3BnoGsEVN419MY9zquiCcjyHwf
+2026-06-07 22:11:53,246 | INFO | Cycle 8: IPFS CID = QmUCyFrpjsYbBtmmGXhp3BnoGsEVN419MY9zquiCcjyHwf
+2026-06-07 22:11:53,247 | INFO | Cycle 8: invoking Fabric chaincode...
+2026-06-07 22:11:53,443 | INFO | Fabric StoreRecord success | CID: QmUCyFrpjsYbBtmmGXhp3BnoGsEVN419MY9zquiCcjyHwf | Cycle: 8
+2026-06-07 22:11:53,444 | INFO | Cycle 8 COMPLETE | CID: QmUCyFrpjsYbBtmmGXhp3BnoGsEVN419MY9zquiCcjyHwf | Hash: 25d34e047f86a6ea... | Fabric: OK
+2026-06-07 22:12:44,266 | INFO | Sentinel detected: vanet_ready_9 → cycle 9
+2026-06-07 22:12:44,367 | INFO | ==================================================
+2026-06-07 22:12:44,367 | INFO | Processing cycle 9
+2026-06-07 22:12:44,368 | INFO | Cycle 9: read 53 flow rules
+2026-06-07 22:12:44,368 | INFO | Cycle 9: canonical JSON built (5930 bytes)
+2026-06-07 22:12:44,369 | INFO | Cycle 9: SHA-256 = ca41632f52f53fb1...
+2026-06-07 22:12:44,369 | INFO | Cycle 9: uploading to IPFS...
+2026-06-07 22:12:44,407 | INFO | IPFS upload success | CID: QmURMhbhnoqGiaDu9FDXm7L6hsQkkBub8GTpn6CaQFgCw4
+2026-06-07 22:12:44,435 | INFO | Cycle 9: IPFS CID = QmURMhbhnoqGiaDu9FDXm7L6hsQkkBub8GTpn6CaQFgCw4
+2026-06-07 22:12:44,435 | INFO | Cycle 9: invoking Fabric chaincode...
+2026-06-07 22:12:44,686 | INFO | Fabric StoreRecord success | CID: QmURMhbhnoqGiaDu9FDXm7L6hsQkkBub8GTpn6CaQFgCw4 | Cycle: 9
+2026-06-07 22:12:44,686 | INFO | Cycle 9 COMPLETE | CID: QmURMhbhnoqGiaDu9FDXm7L6hsQkkBub8GTpn6CaQFgCw4 | Hash: ca41632f52f53fb1... | Fabric: OK
+2026-06-07 22:13:32,672 | INFO | Sentinel detected: vanet_ready_10 → cycle 10
+2026-06-07 22:13:32,778 | INFO | ==================================================
+2026-06-07 22:13:32,778 | INFO | Processing cycle 10
+2026-06-07 22:13:32,778 | INFO | Cycle 10: read 112 flow rules
+2026-06-07 22:13:32,779 | INFO | Cycle 10: canonical JSON built (12498 bytes)
+2026-06-07 22:13:32,779 | INFO | Cycle 10: SHA-256 = 179bec16aae2e888...
+2026-06-07 22:13:32,779 | INFO | Cycle 10: uploading to IPFS...
+2026-06-07 22:13:32,819 | INFO | IPFS upload success | CID: QmWwkDo9i7EJHcoid46bockh15b2gQaRe69d1rf7vdFs1p
+2026-06-07 22:13:32,842 | INFO | Cycle 10: IPFS CID = QmWwkDo9i7EJHcoid46bockh15b2gQaRe69d1rf7vdFs1p
+2026-06-07 22:13:32,842 | INFO | Cycle 10: invoking Fabric chaincode...
+2026-06-07 22:13:32,982 | INFO | Fabric StoreRecord success | CID: QmWwkDo9i7EJHcoid46bockh15b2gQaRe69d1rf7vdFs1p | Cycle: 10
+2026-06-07 22:13:32,982 | INFO | Cycle 10 COMPLETE | CID: QmWwkDo9i7EJHcoid46bockh15b2gQaRe69d1rf7vdFs1p | Hash: 179bec16aae2e888... | Fabric: OK
+2026-06-07 22:14:23,380 | INFO | Sentinel detected: vanet_ready_11 → cycle 11
+2026-06-07 22:14:23,481 | INFO | ==================================================
+2026-06-07 22:14:23,482 | INFO | Processing cycle 11
+2026-06-07 22:14:23,482 | INFO | Cycle 11: read 97 flow rules
+2026-06-07 22:14:23,482 | INFO | Cycle 11: canonical JSON built (11028 bytes)
+2026-06-07 22:14:23,482 | INFO | Cycle 11: SHA-256 = b43742fe9f695954...
+2026-06-07 22:14:23,482 | INFO | Cycle 11: uploading to IPFS...
+2026-06-07 22:14:23,521 | INFO | IPFS upload success | CID: QmdfkzPK1KaYpubTzSdVwfAZ7wNDz58x8UzF2cFt7nEoat
+2026-06-07 22:14:23,540 | INFO | Cycle 11: IPFS CID = QmdfkzPK1KaYpubTzSdVwfAZ7wNDz58x8UzF2cFt7nEoat
+2026-06-07 22:14:23,540 | INFO | Cycle 11: invoking Fabric chaincode...
+2026-06-07 22:14:23,641 | INFO | Fabric StoreRecord success | CID: QmdfkzPK1KaYpubTzSdVwfAZ7wNDz58x8UzF2cFt7nEoat | Cycle: 11
+2026-06-07 22:14:23,642 | INFO | Cycle 11 COMPLETE | CID: QmdfkzPK1KaYpubTzSdVwfAZ7wNDz58x8UzF2cFt7nEoat | Hash: b43742fe9f695954... | Fabric: OK
+2026-06-07 22:15:11,066 | INFO | Sentinel detected: vanet_ready_12 → cycle 12
+2026-06-07 22:15:11,168 | INFO | ==================================================
+2026-06-07 22:15:11,168 | INFO | Processing cycle 12
+2026-06-07 22:15:11,169 | INFO | Cycle 12: read 114 flow rules
+2026-06-07 22:15:11,169 | INFO | Cycle 12: canonical JSON built (12989 bytes)
+2026-06-07 22:15:11,170 | INFO | Cycle 12: SHA-256 = bc68734070872615...
+2026-06-07 22:15:11,170 | INFO | Cycle 12: uploading to IPFS...
+2026-06-07 22:15:11,219 | INFO | IPFS upload success | CID: QmaELLALCp4z1QCFo1SM6frpsJBWHUXr2Fejkp4Mu6soN3
+2026-06-07 22:15:11,241 | INFO | Cycle 12: IPFS CID = QmaELLALCp4z1QCFo1SM6frpsJBWHUXr2Fejkp4Mu6soN3
+2026-06-07 22:15:11,241 | INFO | Cycle 12: invoking Fabric chaincode...
+2026-06-07 22:15:11,423 | INFO | Fabric StoreRecord success | CID: QmaELLALCp4z1QCFo1SM6frpsJBWHUXr2Fejkp4Mu6soN3 | Cycle: 12
+2026-06-07 22:15:11,423 | INFO | Cycle 12 COMPLETE | CID: QmaELLALCp4z1QCFo1SM6frpsJBWHUXr2Fejkp4Mu6soN3 | Hash: bc68734070872615... | Fabric: OK
+2026-06-07 22:16:08,988 | INFO | Sentinel detected: vanet_ready_13 → cycle 13
+2026-06-07 22:16:09,099 | INFO | ==================================================
+2026-06-07 22:16:09,099 | INFO | Processing cycle 13
+2026-06-07 22:16:09,100 | INFO | Cycle 13: read 135 flow rules
+2026-06-07 22:16:09,100 | INFO | Cycle 13: canonical JSON built (15291 bytes)
+2026-06-07 22:16:09,100 | INFO | Cycle 13: SHA-256 = 912c34f353519c5e...
+2026-06-07 22:16:09,100 | INFO | Cycle 13: uploading to IPFS...
+2026-06-07 22:16:09,138 | INFO | IPFS upload success | CID: Qma4g5diLVCt719f7bbhbadfKqWkyEK4vsgLHULa8CsqeN
+2026-06-07 22:16:09,160 | INFO | Cycle 13: IPFS CID = Qma4g5diLVCt719f7bbhbadfKqWkyEK4vsgLHULa8CsqeN
+2026-06-07 22:16:09,161 | INFO | Cycle 13: invoking Fabric chaincode...
+2026-06-07 22:16:09,439 | INFO | Fabric StoreRecord success | CID: Qma4g5diLVCt719f7bbhbadfKqWkyEK4vsgLHULa8CsqeN | Cycle: 13
+2026-06-07 22:16:09,439 | INFO | Cycle 13 COMPLETE | CID: Qma4g5diLVCt719f7bbhbadfKqWkyEK4vsgLHULa8CsqeN | Hash: 912c34f353519c5e... | Fabric: OK
