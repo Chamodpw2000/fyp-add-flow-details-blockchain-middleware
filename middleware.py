@@ -10,6 +10,7 @@ import json
 import hashlib
 import logging
 import time
+import socket
 import glob
 import sys
 from watchdog.observers import Observer
@@ -21,7 +22,9 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from config import WATCH_DIR, LOG_FILE
 from ipfs_client import upload_to_ipfs
 from fabric_client import store_record
-
+# ─── Verification Controller Config ──────────────────────────────────────────
+VERIFY_SOCKET_PATH = "/tmp/vanet_verify.sock"
+VC_THRESHOLD       = 0.75
 # ─── Logging Setup ───────────────────────────────────────────────────────────
 # Logs to both file and console simultaneously
 logging.basicConfig(
@@ -80,6 +83,65 @@ def compute_sha256(canonical_json: str) -> str:
     ).hexdigest()
 
 
+def verify_with_controllers(cycle_id: int) -> bool:
+    """
+    Connects to the verification socket in fix.cc.
+    Sends cycle number, receives 4 independent scores from
+    verification controllers, makes final PASS/FAIL decision.
+
+    Returns True if PASS, False if FAIL.
+    """
+    try:
+        sock = socket.socket(socket.AF_UNIX, socket.SOCK_STREAM)
+        sock.settimeout(30)
+        sock.connect(VERIFY_SOCKET_PATH)
+
+        # Send verification request
+        request = f"VERIFY:{cycle_id}\n"
+        sock.sendall(request.encode("utf-8"))
+
+        # Receive scores from all 4 verification controllers
+        response = sock.recv(1024).decode("utf-8").strip()
+        sock.close()
+
+        # Expected format: "VC1:0.950000:VC2:0.930000:VC3:0.080000:VC4:0.910000"
+        scores = {}
+        parts = response.split(":")
+        for i in range(0, len(parts) - 1, 2):
+            vc_name  = parts[i]
+            vc_score = float(parts[i + 1])
+            scores[vc_name] = vc_score
+
+        # Log each controller score individually
+        for vc, score in scores.items():
+            status = "PASS" if score >= VC_THRESHOLD else "FAIL"
+            flag   = "⚠ SUSPICIOUS" if score < 0.3 else ""
+            logger.info(
+                f"Cycle {cycle_id}: {vc} score={score:.4f} → {status} {flag}"
+            )
+
+        # Middleware makes the final decision
+        aggregate = sum(scores.values()) / len(scores)
+        passed    = aggregate >= VC_THRESHOLD
+
+        logger.info(
+            f"Cycle {cycle_id}: aggregate={aggregate:.4f} "
+            f"threshold={VC_THRESHOLD} → {'PASS ✓' if passed else 'FAIL ✗'}"
+        )
+
+        return passed
+
+    except FileNotFoundError:
+        logger.error(f"Cycle {cycle_id}: verification socket not found — "
+                     f"is fix.cc running?")
+        return False
+    except socket.timeout:
+        logger.error(f"Cycle {cycle_id}: verification socket timeout")
+        return False
+    except Exception as e:
+        logger.error(f"Cycle {cycle_id}: verification error: {e}")
+        return False
+
 def process_cycle(cycle_id: int, json_file: str, sentinel_file: str):
 
     logger.info(f"{'='*50}")
@@ -103,9 +165,24 @@ def process_cycle(cycle_id: int, json_file: str, sentinel_file: str):
 
         canonical = build_canonical_json(flow_rules)
         logger.info(f"Cycle {cycle_id}: canonical JSON built ({len(canonical)} bytes)")
-
         sha256_hash = compute_sha256(canonical)
         logger.info(f"Cycle {cycle_id}: SHA-256 = {sha256_hash[:16]}...")
+
+        # ── Verification Controllers ──────────────────────────────────────────
+        # Before storing anything, verify flow rules with 4 independent
+        # verification controllers running inside fix.cc
+        logger.info(f"Cycle {cycle_id}: requesting verification...")
+        verified = verify_with_controllers(cycle_id)
+
+        if not verified:
+            logger.warning(
+                f"Cycle {cycle_id}: VERIFICATION FAILED — "
+                f"possible malicious controller detected. "
+                f"Skipping IPFS and blockchain storage."
+            )
+            return
+
+        logger.info(f"Cycle {cycle_id}: verification PASSED — proceeding to storage")
 
         logger.info(f"Cycle {cycle_id}: uploading to IPFS...")
         cid = upload_to_ipfs(canonical)
